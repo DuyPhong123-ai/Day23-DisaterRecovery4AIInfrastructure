@@ -20,6 +20,12 @@ reports/*.json
 reports/_*.jsonl
 reports/runbook-run.jsonl
 
+# Sources referenced by the completed evidence and postmortem reports.
+!reports/runbook-run.jsonl
+!reports/measure-drill-1.json
+!reports/measure-drill-2.json
+!reports/drill-config.json
+
 # Python
 __pycache__/
 *.pyc

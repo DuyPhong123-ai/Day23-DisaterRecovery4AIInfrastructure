@@ -1,0 +1,60 @@
+{"seq": 0, "ts": 1791524623.0376863, "status": 200, "ok": true, "served_by": "a", "edge_region": "a", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1459.8}
+{"seq": 1, "ts": 1791524624.4974532, "status": 200, "ok": true, "served_by": "a", "edge_region": "a", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1074.4}
+{"seq": 2, "ts": 1791524625.5724277, "status": 200, "ok": true, "served_by": "a", "edge_region": "a", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1180.8}
+{"seq": 3, "ts": 1791524626.7532454, "status": 200, "ok": true, "served_by": "a", "edge_region": "a", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1178.2}
+{"seq": 4, "ts": 1791524627.936412, "status": 200, "ok": true, "served_by": "a", "edge_region": "a", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1092.5}
+{"seq": 5, "ts": 1791524629.028871, "status": 200, "ok": true, "served_by": "a", "edge_region": "a", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1262.0}
+{"seq": 6, "ts": 1791524630.290876, "status": 200, "ok": true, "served_by": "a", "edge_region": "a", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1436.7}
+{"seq": 7, "ts": 1791524631.7275314, "status": 200, "ok": true, "served_by": "a", "edge_region": "a", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1289.3}
+{"seq": 8, "ts": 1791524633.016851, "status": 200, "ok": true, "served_by": "a", "edge_region": "a", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1459.9}
+{"seq": 9, "ts": 1791524634.4767156, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3012.5}
+{"seq": 10, "ts": 1791524637.489242, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3007.2}
+{"seq": 11, "ts": 1791524640.496488, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3006.5}
+{"seq": 12, "ts": 1791524643.5029411, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3015.9}
+{"seq": 13, "ts": 1791524646.5188851, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3006.2}
+{"seq": 14, "ts": 1791524649.525121, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3015.0}
+{"seq": 15, "ts": 1791524652.5401368, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3005.2}
+{"seq": 16, "ts": 1791524655.5452974, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3006.8}
+{"seq": 17, "ts": 1791524658.552111, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3013.8}
+{"seq": 18, "ts": 1791524661.565949, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3027.8}
+{"seq": 19, "ts": 1791524664.5937667, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3008.8}
+{"seq": 20, "ts": 1791524667.602544, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3004.6}
+{"seq": 21, "ts": 1791524670.6071522, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3021.3}
+{"seq": 22, "ts": 1791524673.62843, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3008.9}
+{"seq": 23, "ts": 1791524676.6373394, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1438.5}
+{"seq": 24, "ts": 1791524678.0758016, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1198.4}
+{"seq": 25, "ts": 1791524679.2742035, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1313.3}
+{"seq": 26, "ts": 1791524680.5875423, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1186.2}
+{"seq": 27, "ts": 1791524681.7737682, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1230.9}
+{"seq": 28, "ts": 1791524683.0046725, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1176.4}
+{"seq": 29, "ts": 1791524684.181058, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1110.2}
+{"seq": 30, "ts": 1791524685.291247, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1224.0}
+{"seq": 31, "ts": 1791524686.5152824, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1379.5}
+{"seq": 32, "ts": 1791524687.8947797, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1166.4}
+{"seq": 33, "ts": 1791524689.0611484, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1249.6}
+{"seq": 34, "ts": 1791524690.3107905, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1185.3}
+{"seq": 35, "ts": 1791524691.4961028, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1099.5}
+{"seq": 36, "ts": 1791524692.5956194, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1185.2}
+{"seq": 37, "ts": 1791524693.7808223, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1136.5}
+{"seq": 38, "ts": 1791524694.9172769, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1148.1}
+{"seq": 39, "ts": 1791524696.0654204, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1293.4}
+{"seq": 40, "ts": 1791524697.358851, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1165.3}
+{"seq": 41, "ts": 1791524698.5241468, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1395.3}
+{"seq": 42, "ts": 1791524699.9194107, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1243.3}
+{"seq": 43, "ts": 1791524701.1627078, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1127.3}
+{"seq": 44, "ts": 1791524702.289979, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1154.7}
+{"seq": 45, "ts": 1791524703.4446816, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1107.3}
+{"seq": 46, "ts": 1791524704.551984, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1175.2}
+{"seq": 47, "ts": 1791524705.7271788, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1394.3}
+{"seq": 48, "ts": 1791524707.1214733, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1104.9}
+{"seq": 49, "ts": 1791524708.2278605, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1298.0}
+{"seq": 50, "ts": 1791524709.5258455, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1296.5}
+{"seq": 51, "ts": 1791524710.825493, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1149.7}
+{"seq": 52, "ts": 1791524711.9751434, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1119.4}
+{"seq": 53, "ts": 1791524713.0945446, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1158.5}
+{"seq": 54, "ts": 1791524714.2530875, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1154.0}
+{"seq": 55, "ts": 1791524715.4080794, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1331.1}
+{"seq": 56, "ts": 1791524716.7392282, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1091.6}
+{"seq": 57, "ts": 1791524717.8308663, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1213.3}
+{"seq": 58, "ts": 1791524719.0441985, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1398.9}
+{"seq": 59, "ts": 1791524720.4431193, "status": 200, "ok": true, "served_by": "b", "edge_region": "b", "doc_ingested_at": 1791524616.077516, "error": null, "latency_ms": 1129.1}

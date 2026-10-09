@@ -22,20 +22,52 @@ import argparse
 import json
 import pathlib
 import time
+import os
 
 import httpx
 
-URL = {"a": "http://127.0.0.1:8001", "b": "http://127.0.0.1:8002"}
+URL = {r: os.environ.get(f"REGION_{r.upper()}_URL", f"http://127.0.0.1:{8001 + i}")
+       for i, r in enumerate("ab")}
 
 
 def probe(region: str, timeout: float) -> tuple[bool, str]:
     """TODO: trả về (ready, reason). Timeout PHẢI có — netblock làm request treo mãi."""
-    raise NotImplementedError
+    if region not in URL or timeout <= 0:
+        raise ValueError("Invalid region or timeout")
+    try:
+        response = httpx.get(f"{URL[region]}/readyz", timeout=timeout)
+        body = response.json()
+        ready = response.status_code == 200 and body.get("ready") is True
+        return ready, "ready" if ready else "; ".join(body.get("reasons", [])) or f"HTTP {response.status_code}"
+    except (httpx.HTTPError, ValueError) as exc:
+        return False, f"{type(exc).__name__}: {exc}"
 
 
 def run(interval: float, timeout: float, threshold: int, duration: float, out: pathlib.Path):
     """TODO: vòng lặp poll + phát hiện transition + ghi JSONL."""
-    raise NotImplementedError
+    if interval <= 0 or timeout <= 0 or threshold < 1 or duration < 0:
+        raise ValueError("interval/timeout/threshold must be positive; duration >= 0")
+    out.parent.mkdir(parents=True, exist_ok=True)
+    states = {r: "HEALTHY" for r in URL}
+    failures = {r: 0 for r in URL}
+    end = time.monotonic() + duration
+    with out.open("a", encoding="utf-8") as log:
+        while time.monotonic() < end:
+            for region in URL:
+                ready, reason = probe(region, timeout)
+                failures[region] = 0 if ready else failures[region] + 1
+                new = "HEALTHY" if ready else (
+                    "UNHEALTHY" if failures[region] >= threshold else states[region])
+                if new != states[region]:
+                    record = {"ts": time.time(), "event": "state_change", "region": region,
+                              "from": states[region], "to": new, "reason": reason,
+                              "interval_s": interval, "threshold": threshold,
+                              "consecutive_fails": failures[region]}
+                    log.write(json.dumps(record) + "\n")
+                    log.flush()
+                    print(json.dumps(record), flush=True)
+                    states[region] = new
+            time.sleep(min(interval, max(0, end - time.monotonic())))
 
 
 if __name__ == "__main__":

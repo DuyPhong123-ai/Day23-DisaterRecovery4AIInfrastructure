@@ -1,0 +1,17 @@
+{"seq": 0, "ts": 1791524575.9252205, "status": 200, "ok": true, "served_by": "a", "edge_region": "a", "doc_ingested_at": 1791524467.4206471, "error": null, "latency_ms": 1101.1}
+{"seq": 1, "ts": 1791524577.0263195, "status": 200, "ok": true, "served_by": "a", "edge_region": "a", "doc_ingested_at": 1791524467.4206471, "error": null, "latency_ms": 1134.1}
+{"seq": 2, "ts": 1791524578.1603894, "status": 200, "ok": true, "served_by": "a", "edge_region": "a", "doc_ingested_at": 1791524467.4206471, "error": null, "latency_ms": 1138.8}
+{"seq": 3, "ts": 1791524579.2992077, "status": 200, "ok": true, "served_by": "a", "edge_region": "a", "doc_ingested_at": 1791524467.4206471, "error": null, "latency_ms": 1169.5}
+{"seq": 4, "ts": 1791524580.469891, "status": 200, "ok": true, "served_by": "a", "edge_region": "a", "doc_ingested_at": 1791524467.4206471, "error": null, "latency_ms": 1156.2}
+{"seq": 5, "ts": 1791524581.6260412, "status": 200, "ok": true, "served_by": "a", "edge_region": "a", "doc_ingested_at": 1791524467.4206471, "error": null, "latency_ms": 1203.6}
+{"seq": 6, "ts": 1791524582.8296502, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3001.1}
+{"seq": 7, "ts": 1791524585.8307078, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3005.4}
+{"seq": 8, "ts": 1791524588.836071, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3015.9}
+{"seq": 9, "ts": 1791524591.851983, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3005.5}
+{"seq": 10, "ts": 1791524594.8574977, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3008.1}
+{"seq": 11, "ts": 1791524597.8656447, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3005.2}
+{"seq": 12, "ts": 1791524600.8708305, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3021.5}
+{"seq": 13, "ts": 1791524603.8922966, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3006.7}
+{"seq": 14, "ts": 1791524606.8997793, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3006.4}
+{"seq": 15, "ts": 1791524609.9065251, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3015.7}
+{"seq": 16, "ts": 1791524612.9222648, "status": null, "ok": false, "error": "ReadTimeout", "latency_ms": 3004.4}
